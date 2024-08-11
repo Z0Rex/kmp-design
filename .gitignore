@@ -1,7 +1,8 @@
 *.iml
 .kotlin
 .gradle
-**/build/
+**/build/*
+!composeApp/build/dist/
 xcuserdata
 !src/**/build/
 local.properties
@@ -16,3 +17,4 @@ captures
 !*.xcodeproj/project.xcworkspace/
 !*.xcworkspace/contents.xcworkspacedata
 **/xcshareddata/WorkspaceSettings.xcsettings
+
